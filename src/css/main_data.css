@@ -1,0 +1,70 @@
+.main_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/src/images/Groupdata.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_data h1 {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 20px 0 33px 0;
+}
+
+.main_data_input {
+  border-radius: 50px;
+  background: #fff;
+  min-width: 580px;
+  color: #959595;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 19px;
+  padding: 11px 11px 11px 25px;
+}
+
+.main_data_wrapper_input {
+  border-radius: 50px;
+  background: #fff;
+  color: #959595;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 25px 170px 25px 25px;
+  width: 100vw;
+  max-width: 690px;
+}
+
+.main_data_button {
+  border-radius: 16px;
+  background: #8e32c6;
+  min-width: 248px;
+  min-height: 68px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 37px;
+}
+
+.main_data_wrapper_button {
+  color: #8d8d8d;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 0px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 60px;
+}
+
+.data_wrapper {
+  position: relative;
+  margin-bottom: 19px;
+}

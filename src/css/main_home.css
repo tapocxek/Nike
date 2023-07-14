@@ -1,0 +1,72 @@
+.main_home {
+  background-image: url(/src/images/sneakers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 183px;
+}
+
+.main_home_contaner {
+  min-width: 1110px;
+  margin: 0 auto;
+}
+
+.main_home_item {
+  color: #fff;
+  font-family: PT Serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-left: 39px;
+}
+
+.main_home_item::before {
+  content: "";
+  display: block;
+  background-image: url(/src/images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  width: 160px;
+  height: 120px;
+  margin-left: -25px;
+}
+
+.main_home h5 {
+  color: #fff;
+  font-family: PT Serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.main_home h1 {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 144px;
+  font-weight: 400;
+}
+
+.main_home h2 {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-weight: 400;
+}
+.main_home_item4 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  width: 508px;
+}
+.main_home button {
+  border-radius: 10px;
+  margin-top: 41px;
+  background: #8e32c6;
+  min-width: 254px;
+  height: 67px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+}

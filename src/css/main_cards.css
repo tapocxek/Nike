@@ -1,0 +1,44 @@
+.main_cards {
+  background-image: url(/src/images/Groupquality.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 105px 0;
+}
+
+.main_cards_container {
+  display: flex;
+  border: 5px solid #8e32c6;
+  padding: 25px 0;
+}
+
+.main_cards_item {
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #ffffff;
+  margin: 0 50px;
+  padding-right: 50px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main_cards_item:nth-child(3) {
+  border-right: 0 solid #ffffff;
+}
+
+.main_cards_item span {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  flex-wrap: wrap;
+  max-width: 159px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main_cards_item img {
+  max-width: 240px;
+}
