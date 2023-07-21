@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/src/images/Groupdata.png);
+  background-image: url(/src/images/data.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
