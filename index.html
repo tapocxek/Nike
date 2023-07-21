@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="src/css/normalize.css" />
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/main_home.css" />
-    <link rel="stylesheet" href="src/css/main_cards.css" />
+    <link rel="stylesheet" href="src/css/main_advantages.css" />
     <link rel="stylesheet" href="src/css/main_comments.css" />
     <link rel="stylesheet" href="src/css/main_data.css" />
     <link rel="stylesheet" href="src/css/footer.css" />
@@ -28,18 +28,18 @@
   </head>
   <body>
     <header class="header">
-      <img src="src/images/logo.svg" alt="" />
-      <ul class="header_container">
-        <li>Main page</li>
-        <li>Benefits</li>
-        <li>Advantages</li>
-        <li>Reviews</li>
-        <li>Contacts</li>
-        <li>Order</li>
+      <img src="src/images/logo.svg" alt="logo" />
+      <ul class="header_navigation">
+        <li><a href="#">Main page</a></li>
+        <li><a href="#">Benefits</a></li>
+        <li><a href="#">Advantages</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Order</a></li>
       </ul>
-      <div class="header_lenguagewrapper">
-        <h5>Ua</h5>
-        <h5>Eng</h5>
+      <div class="header_lenguage_wrapper">
+        <p class="header_lenguage_p"><a href="#">Ua</a></p>
+        <p class="header_lenguage_p"><a href="#">Eng</a></p>
       </div>
     </header>
     <main class="main">
@@ -53,83 +53,95 @@
             original company caт`t create such beautiful sneakers as we do. Good
             luck finding your way in the world of custom sneakers.
           </p>
-          <button>Buy my Nike</button>
+          <button class="main_home_item5"><a href="#">Buy my Nike</a></button>
         </div>
       </section>
-      <section class="main_cards">
-        <ul class="main_cards_container">
-          <li class="main_cards_item">
-            <span class="premiumquality">Premium Quality</span>
-            <img src="src/images/mcz.png" alt="" />
-          </li>
-          <li class="main_cards_item">
-            <img src="src/images/mck.png" alt="" />
-            <span class="indeliblepaint">Indelible paint</span>
-          </li>
-          <li class="main_cards_item">
-            <span>Fast shipping</span>
-            <img src="src/images/mcg.png" alt="" />
-          </li>
-        </ul>
+      <section class="main_advantages">
+        <div class="main_advantages_container">
+          <section class="main_advantages_item">
+            <h4 class="main_advantages_text">Premium Quality</h4>
+            <img
+              class="main_advantages_img"
+              src="src/images/mcz.png"
+              alt="stars"
+            />
+          </section>
+          <section class="main_advantages_item">
+            <img
+              class="main_advantages_img"
+              src="src/images/mck.png"
+              alt="paint_cans"
+            />
+            <h4 class="main_advantages_text">Indelible paint</h4>
+          </section>
+          <section class="main_advantages_item">
+            <h4 class="main_advantages_text">Fast shipping</h4>
+            <img
+              class="main_advantages_img"
+              src="src/images/mcg.png"
+              alt="truck"
+            />
+          </section>
+        </div>
       </section>
       <section class="main_comments">
-        <h1 class="main_commentsh1">Reviews</h1>
-        <ul class="main_comments_contaner">
-          <li class="main_comments_item1">
-            <h5 class="main_comments_itemh5">
+        <h3 class="main_comments_h3">Reviews</h3>
+        <div class="main_comments_contaner">
+          <section class="main_comments_item1">
+            <p class="main_comments_item_text1">
               Sneakers are very comfortable and well painted, nothing has worn
               off in a year.
-            </h5>
-            <p class="main_comments_itemp">25.11</p>
+            </p>
+            <p class="main_comments_item_text2">25.11</p>
             <div class="main_comments_wrapper1">
-              <img src="src/images/ellipse1.png" alt="" />
+              <img src="src/images/ellipse1.png" alt="man" />
               <div class="main_comments_wrapper2">
-                <h5>John Teylor</h5>
-                <p>With us from 2018</p>
+                <p class="main_comments_wrapper2_text1">John Teylor</p>
+                <p class="main_comments_wrapper2_text2">With us from 2018</p>
               </div>
             </div>
-          </li>
-          <li class="main_comments_item2">
-            <h5 class="main_comments_itemh5">
+          </section>
+          <section class="main_comments_item2">
+            <p class="main_comments_item_text1">
               I'm very happy with this color scheme. They match all my clothes.
-            </h5>
-            <p class="main_comments_itemp">05.01</p>
+            </p>
+            <p class="main_comments_item_text2">05.01</p>
             <div class="main_comments_wrapper1">
-              <img src="src/images/ellipse2.png" alt="" />
+              <img src="src/images/ellipse2.png" alt="woman" />
               <div class="main_comments_wrapper2">
-                <h5>Elizabeth Garsia</h5>
-                <p>With us from 2020</p>
+                <p class="main_comments_wrapper2_text1">Elizabeth Garsia</p>
+                <p class="main_comments_wrapper2_text2">With us from 2020</p>
               </div>
             </div>
-          </li>
-          <li class="main_comments_item3">
-            <h5 class="main_comments_itemh5">
+          </section>
+          <section class="main_comments_item3">
+            <p class="main_comments_item_text1">
               Just right if you need to go to a party. I use them actively, the
               paint is super.
-            </h5>
-            <p class="main_comments_itemp">18.06</p>
+            </p>
+            <p class="main_comments_item_text2">18.06</p>
             <div class="main_comments_wrapper1">
-              <img src="src/images/ellipse3.png" alt="" />
+              <img src="src/images/ellipse3.png" alt="man2" />
               <div class="main_comments_wrapper2">
-                <h5>Tom Maquare</h5>
-                <p>With us from 2019</p>
+                <p class="main_comments_wrapper2_text1">Tom Maquare</p>
+                <p class="main_comments_wrapper2_text2">With us from 2019</p>
               </div>
             </div>
-          </li>
-        </ul>
+          </section>
+        </div>
       </section>
       <section class="main_data">
-        <h1>Order</h1>
-        <div class="data_wrapper">
+        <h3 class="main_data_text">Order</h3>
+        <div class="main_data_container">
           <input
-            type=""
-            class="main_data_wrapper_input"
-            value="Write your email"
-          /><button class="main_data_wrapper_button">Confirm</button>
+            type="email"
+            class="main_data_container_input"
+            placeholder="Write your email"
+          /><button class="main_data_container_button">Confirm</button>
         </div>
-        <input type="" class="main_data_input" value="Your Country" />
-        <input type="" class="main_data_input" value="Your City" />
-        <input type="" class="main_data_input" value="Your Adress" />
+        <input type="text" class="main_data_input" placeholder="Your Country" />
+        <input type="text" class="main_data_input" placeholder="Your City" />
+        <input type="text" class="main_data_input" placeholder="Your Adress" />
         <button class="main_data_button">Order my Nike</button>
       </section>
     </main>
@@ -142,9 +154,15 @@
             <p class="footer_section1_p">Advertising questions?</p>
           </section>
           <section class="footer_section2">
-            <p class="footer_section2_p">ColoRawe_support@gmail.com</p>
-            <p class="footer_section2_p">ColoRawe_Cooperation@gmail.com</p>
-            <p class="footer_section2_p">ColoRawe_Advertising@gmail.com</p>
+            <p class="footer_section2_p">
+              <a href="">ColoRawe_support@gmail.com</a>
+            </p>
+            <p class="footer_section2_p">
+              <a href="">ColoRawe_Cooperation@gmail.com</a>
+            </p>
+            <p class="footer_section2_p">
+              <a href="">ColoRawe_Advertising@gmail.com</a>
+            </p>
           </section>
         </div>
         <div class="footer_contaner">

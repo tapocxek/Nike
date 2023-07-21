@@ -1,17 +1,15 @@
 .header {
   background: #012d63;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   min-height: 93px;
 }
-.header_container {
+.header_navigation {
   display: flex;
-  flex-direction: row;
 }
 
-.header_container li {
+.header_navigation li {
   color: #c7c7c7;
   font-size: 24px;
   font-family: Roboto;
@@ -19,19 +17,18 @@
   margin-right: 29px;
 }
 
-.header_container li:hover {
+.header_navigation li:hover {
   color: #fff;
   font-size: 24px;
   font-family: Roboto;
   font-weight: 400;
 }
 
-.header_lenguagewrapper {
+.header_lenguage_wrapper {
   display: flex;
-  flex-direction: row;
 }
 
-.header_lenguagewrapper h5 {
+.header_lenguage_p {
   color: #dcdcdc;
   font-size: 24px;
   font-family: Roboto;
@@ -39,7 +36,7 @@
   margin-right: 10px;
 }
 
-.header_lenguagewrapper h5:hover {
+.header_lenguage_p:hover {
   color: #fff;
   font-size: 24px;
   font-family: Roboto;

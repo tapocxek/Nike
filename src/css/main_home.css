@@ -13,7 +13,6 @@
 }
 
 .main_home_item {
-  color: #fff;
   font-family: PT Serif;
   font-size: 48px;
   font-weight: 400;
@@ -33,33 +32,27 @@
 }
 
 .main_home h5 {
-  color: #fff;
   font-family: PT Serif;
   font-size: 48px;
   font-weight: 400;
 }
 
 .main_home h1 {
-  color: #fff;
-  font-family: Playfair Display;
   font-size: 144px;
   font-weight: 400;
 }
 
 .main_home h2 {
-  color: #fff;
-  font-family: Playfair Display;
   font-size: 72px;
   font-weight: 400;
 }
 .main_home_item4 {
-  color: #fff;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
   width: 508px;
 }
-.main_home button {
+.main_home_item5 {
   border-radius: 10px;
   margin-top: 41px;
   background: #8e32c6;
@@ -69,4 +62,5 @@
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
+  border: 0;
 }

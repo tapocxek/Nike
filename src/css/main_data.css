@@ -7,9 +7,7 @@
   background-repeat: no-repeat;
 }
 
-.main_data h1 {
-  color: #fff;
-  font-family: Playfair Display;
+.main_data_text {
   font-size: 48px;
   font-weight: 400;
   margin: 20px 0 33px 0;
@@ -18,23 +16,24 @@
 .main_data_input {
   border-radius: 50px;
   background: #fff;
-  min-width: 580px;
+  width: 100vw;
+  max-width: 580px;
   color: #959595;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 19px;
-  padding: 11px 11px 11px 25px;
+  padding: 10px 10px 10px 14px;
 }
 
-.main_data_wrapper_input {
+.main_data_container_input {
   border-radius: 50px;
   background: #fff;
   color: #959595;
   font-family: Roboto;
   font-size: 28px;
   font-weight: 400;
-  padding: 25px 170px 25px 25px;
+  padding: 10px 170px 10px 10px;
   width: 100vw;
   max-width: 690px;
 }
@@ -49,9 +48,10 @@
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 37px;
+  border: 0px;
 }
 
-.main_data_wrapper_button {
+.main_data_container_button {
   color: #8d8d8d;
   font-family: Roboto;
   font-size: 28px;
@@ -64,7 +64,7 @@
   right: 60px;
 }
 
-.data_wrapper {
+.main_data_container {
   position: relative;
   margin-bottom: 19px;
 }

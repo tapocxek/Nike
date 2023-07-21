@@ -1,18 +1,22 @@
 .main_comments {
-  background-image: url(/src/images/coments.jpg);
+  background-color: #021635;
+  background-image: url(/src/images/folawer.png),
+    radial-gradient(
+      circle at right bottom,
+      rgb(15, 140, 175) 15%,
+      #012d6350 35%
+    );
   background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
+  background-position: bottom left;
   justify-content: center;
   flex-direction: column;
   border: 1px solid white;
   border-width: 1px 0;
 }
 
-.main_commentsh1 {
-  color: #fff;
+.main_comments_h3 {
   text-align: center;
-  font-family: Playfair Display;
   font-size: 48px;
   font-weight: 400;
   margin: 24px 0;
@@ -23,7 +27,7 @@
   justify-content: space-around;
 }
 
-.main_comments li {
+.main_comments_contaner section {
   max-width: 255px;
   max-height: 292px;
   border: 15px;
@@ -33,14 +37,13 @@
   justify-content: center;
 }
 
-.main_comments_itemh5 {
-  color: #fff;
+.main_comments_item_text1 {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
 }
 
-.main_comments_itemp {
+.main_comments_item_text2 {
   color: #d8d8d8;
   font-family: Roboto;
   font-size: 14px;
@@ -89,14 +92,13 @@
   margin-top: 47px;
 }
 
-.main_comments_wrapper2 h5 {
-  color: #fff;
+.main_comments_wrapper2_text1 {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
 }
 
-.main_comments_wrapper2 p {
+.main_comments_wrapper2_text2 {
   color: #d8d8d8;
   font-family: Roboto;
   font-size: 12px;

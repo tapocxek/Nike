@@ -1,19 +1,23 @@
-.main_cards {
-  background-image: url(/src/images/quality.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.main_advantages {
+  background-color: #021635;
+  background-image: radial-gradient(
+      circle at right bottom,
+      rgb(15, 140, 175) 10%,
+      #012d6350 25%
+    ),
+    radial-gradient(circle at left top, rgb(128, 0, 128) 10%, #021635 25%);
   display: flex;
   justify-content: center;
   padding: 105px 0;
 }
 
-.main_cards_container {
+.main_advantages_container {
   display: flex;
   border: 5px solid #8e32c6;
   padding: 25px 0;
 }
 
-.main_cards_item {
+.main_advantages_item {
   display: flex;
   justify-content: center;
   border-right: 1px solid #ffffff;
@@ -23,22 +27,19 @@
   gap: 10px;
 }
 
-.main_cards_item:nth-child(3) {
+.main_advantages_item:nth-child(3) {
   border-right: 0 solid #ffffff;
 }
 
-.main_cards_item span {
-  color: #fff;
-  font-family: Playfair Display;
+.main_advantages_text {
   font-size: 36px;
   font-weight: 400;
   flex-wrap: wrap;
   max-width: 159px;
-  color: #fff;
   text-align: center;
   margin: 0 auto;
 }
 
-.main_cards_item img {
+.main_advantages_img {
   max-width: 240px;
 }
