@@ -7,6 +7,12 @@
   background-repeat: no-repeat;
 }
 
+.main_data_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main_data_text {
   font-size: 48px;
   font-weight: 400;
