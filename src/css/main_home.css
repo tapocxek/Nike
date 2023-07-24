@@ -1,5 +1,5 @@
 .main_home {
-  background-image: url(/src/images/sneakers.png);
+  background-image: url(/src/images/sneakers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -34,22 +34,18 @@
 .main_home h5 {
   font-family: PT Serif;
   font-size: 48px;
-  font-weight: 400;
 }
 
 .main_home h1 {
   font-size: 144px;
-  font-weight: 400;
 }
 
 .main_home h2 {
   font-size: 72px;
-  font-weight: 400;
 }
 .main_home_item4 {
   font-family: Roboto;
   font-size: 18px;
-  font-weight: 400;
   width: 508px;
 }
 .main_home_item5 {

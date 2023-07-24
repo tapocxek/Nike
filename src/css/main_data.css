@@ -25,9 +25,6 @@
   width: 100vw;
   max-width: 580px;
   color: #959595;
-  font-family: Roboto;
-  font-size: 24px;
-  font-weight: 400;
   margin-bottom: 19px;
   padding: 10px 10px 10px 14px;
 }
@@ -36,9 +33,7 @@
   border-radius: 50px;
   background: #fff;
   color: #959595;
-  font-family: Roboto;
   font-size: 28px;
-  font-weight: 400;
   padding: 10px 170px 10px 10px;
   width: 100vw;
   max-width: 690px;

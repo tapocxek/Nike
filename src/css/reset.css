@@ -19,3 +19,7 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
+
+input {
+  font: inherit;
+}
